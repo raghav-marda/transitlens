@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="852" viewBox="0 0 640 852">
+<rect x="0" y="0" width="640" height="852" fill="#fbf6e9" data-role="background"/>
+<polyline points="96.0,288.0 192.0,288.0 288.0,288.0 384.0,288.0 480.0,192.0 480.0,96.0" fill="none" stroke="#cc79a7" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96.0,288.0 192.0,384.0 288.0,480.0 288.0,576.0 288.0,672.0" fill="none" stroke="#0072b2" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="480.0,192.0 384.0,192.0 288.0,96.0 192.0,96.0 96.0,96.0" fill="none" stroke="#d55e00" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="96.0" cy="96.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="96.0" cy="288.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="192.0" cy="96.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="192.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="192.0" cy="384.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="288.0" cy="96.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="288.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="288.0" cy="480.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="288.0" cy="576.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="288.0" cy="672.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="384.0" cy="192.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="384.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="480.0" cy="96.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="480.0" cy="192.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<text x="78.0" y="292.6" font-size="13" text-anchor="end" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">हिमगंज</text>
+<text x="498.0" y="196.6" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">रानकुंज</text>
+<text x="83.0" y="100.5" font-size="13" text-anchor="end" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">चंदपेठ</text>
+<text x="397.0" y="171.2" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">दानवाड़ी</text>
+<text x="397.0" y="308.8" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">आशागेट</text>
+<text x="467.0" y="100.5" font-size="13" text-anchor="end" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">देवनगर</text>
+<text x="192.0" y="75.2" font-size="13" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">रानबाग</text>
+<text x="192.0" y="267.2" font-size="13" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">राजगंज</text>
+<text x="205.0" y="363.2" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">फतगंज</text>
+<text x="288.0" y="75.2" font-size="13" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">मोरगेट</text>
+<text x="288.0" y="267.2" font-size="13" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">राजगेट</text>
+<text x="301.0" y="484.6" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">सुरपुर</text>
+<text x="275.0" y="580.5" font-size="13" text-anchor="end" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">हरविहार</text>
+<text x="275.0" y="676.5" font-size="13" text-anchor="end" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">वेदनगर</text>
+<rect x="96.0" y="803.0" width="34" height="14" fill="#cc79a7"/>
+<text x="140.0" y="815.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Purple Line</text>
+<rect x="285.6" y="803.0" width="34" height="14" fill="#0072b2"/>
+<text x="329.6" y="815.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Blue Line</text>
+<rect x="456.0" y="803.0" width="34" height="14" fill="#d55e00"/>
+<text x="500.0" y="815.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Red Line</text>
+</svg>

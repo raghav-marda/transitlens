@@ -1,0 +1,168 @@
+{"task_id": "m0000-0", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0000-1", "adapter": "oracle", "raw_reply": "impossible", "parsed": "impossible", "reference": "impossible", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0000-2", "adapter": "oracle", "raw_reply": "Green, Purple", "parsed": "Green, Purple", "reference": "Green, Purple", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0000-3", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0000-4", "adapter": "oracle", "raw_reply": "Prannagar", "parsed": "prannagar", "reference": "Prannagar", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0000-5", "adapter": "oracle", "raw_reply": "6", "parsed": "6", "reference": "6", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0001-0", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0001-1", "adapter": "oracle", "raw_reply": "impossible", "parsed": "impossible", "reference": "impossible", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0001-2", "adapter": "oracle", "raw_reply": "Brown, Purple", "parsed": "Brown, Purple", "reference": "Brown, Purple", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0001-3", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0001-4", "adapter": "oracle", "raw_reply": "Umavihar", "parsed": "umavihar", "reference": "Umavihar", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0001-5", "adapter": "oracle", "raw_reply": "6", "parsed": "6", "reference": "6", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0002-0", "adapter": "oracle", "raw_reply": "4", "parsed": "4", "reference": "4", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0002-1", "adapter": "oracle", "raw_reply": "impossible", "parsed": "impossible", "reference": "impossible", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0002-2", "adapter": "oracle", "raw_reply": "Orange, Red", "parsed": "Orange, Red", "reference": "Orange, Red", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0002-3", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0002-4", "adapter": "oracle", "raw_reply": "Ishavihar", "parsed": "ishavihar", "reference": "Ishavihar", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0002-5", "adapter": "oracle", "raw_reply": "5", "parsed": "5", "reference": "5", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0003-0", "adapter": "oracle", "raw_reply": "1", "parsed": "1", "reference": "1", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0003-1", "adapter": "oracle", "raw_reply": "impossible", "parsed": "impossible", "reference": "impossible", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0003-2", "adapter": "oracle", "raw_reply": "Orange, Red", "parsed": "Orange, Red", "reference": "Orange, Red", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0003-3", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0003-4", "adapter": "oracle", "raw_reply": "Nilkunj", "parsed": "nilkunj", "reference": "Nilkunj", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0003-5", "adapter": "oracle", "raw_reply": "5", "parsed": "5", "reference": "5", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0004-0", "adapter": "oracle", "raw_reply": "0", "parsed": "0", "reference": "0", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0004-1", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0004-2", "adapter": "oracle", "raw_reply": "Orange, Purple", "parsed": "Orange, Purple", "reference": "Orange, Purple", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0004-3", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0004-4", "adapter": "oracle", "raw_reply": "Hargate", "parsed": "hargate", "reference": "Hargate", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0004-5", "adapter": "oracle", "raw_reply": "6", "parsed": "6", "reference": "6", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0005-0", "adapter": "oracle", "raw_reply": "0", "parsed": "0", "reference": "0", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0005-1", "adapter": "oracle", "raw_reply": "impossible", "parsed": "impossible", "reference": "impossible", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0005-2", "adapter": "oracle", "raw_reply": "Green, Red", "parsed": "Green, Red", "reference": "Green, Red", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0005-3", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0005-4", "adapter": "oracle", "raw_reply": "Ashawadi", "parsed": "ashawadi", "reference": "Ashawadi", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0005-5", "adapter": "oracle", "raw_reply": "6", "parsed": "6", "reference": "6", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0006-0", "adapter": "oracle", "raw_reply": "0", "parsed": "0", "reference": "0", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0006-1", "adapter": "oracle", "raw_reply": "impossible", "parsed": "impossible", "reference": "impossible", "correct": true, "error": null, "seconds": 0.01}
+{"task_id": "m0006-2", "adapter": "oracle", "raw_reply": "Green, Orange", "parsed": "Green, Orange", "reference": "Green, Orange", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0006-3", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0006-4", "adapter": "oracle", "raw_reply": "Dankunj", "parsed": "dankunj", "reference": "Dankunj", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0006-5", "adapter": "oracle", "raw_reply": "7", "parsed": "7", "reference": "7", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0007-0", "adapter": "oracle", "raw_reply": "1", "parsed": "1", "reference": "1", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0007-1", "adapter": "oracle", "raw_reply": "1", "parsed": "1", "reference": "1", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0007-2", "adapter": "oracle", "raw_reply": "Blue, Green", "parsed": "Blue, Green", "reference": "Blue, Green", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0007-3", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0007-4", "adapter": "oracle", "raw_reply": "सतपेठ", "parsed": "सतपेठ", "reference": "सतपेठ", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0007-5", "adapter": "oracle", "raw_reply": "7", "parsed": "7", "reference": "7", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0008-0", "adapter": "oracle", "raw_reply": "0", "parsed": "0", "reference": "0", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0008-1", "adapter": "oracle", "raw_reply": "impossible", "parsed": "impossible", "reference": "impossible", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0008-2", "adapter": "oracle", "raw_reply": "Blue, Brown", "parsed": "Blue, Brown", "reference": "Blue, Brown", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0008-3", "adapter": "oracle", "raw_reply": "देवचौक", "parsed": "देवचौक", "reference": "देवचौक", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0008-4", "adapter": "oracle", "raw_reply": "5", "parsed": "5", "reference": "5", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0008-5", "adapter": "oracle", "raw_reply": "0", "parsed": "0", "reference": "0", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0009-0", "adapter": "oracle", "raw_reply": "0", "parsed": "0", "reference": "0", "correct": true, "error": null, "seconds": 0.01}
+{"task_id": "m0009-1", "adapter": "oracle", "raw_reply": "impossible", "parsed": "impossible", "reference": "impossible", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0009-2", "adapter": "oracle", "raw_reply": "Blue, Purple", "parsed": "Blue, Purple", "reference": "Blue, Purple", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0009-3", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0009-4", "adapter": "oracle", "raw_reply": "रानकुंज", "parsed": "रानकुंज", "reference": "रानकुंज", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0009-5", "adapter": "oracle", "raw_reply": "5", "parsed": "5", "reference": "5", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0010-0", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0010-1", "adapter": "oracle", "raw_reply": "impossible", "parsed": "impossible", "reference": "impossible", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0010-2", "adapter": "oracle", "raw_reply": "Brown, Red", "parsed": "Brown, Red", "reference": "Brown, Red", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0010-3", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0010-4", "adapter": "oracle", "raw_reply": "मितबाग", "parsed": "मितबाग", "reference": "मितबाग", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0010-5", "adapter": "oracle", "raw_reply": "5", "parsed": "5", "reference": "5", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0011-0", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0011-1", "adapter": "oracle", "raw_reply": "impossible", "parsed": "impossible", "reference": "impossible", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0011-2", "adapter": "oracle", "raw_reply": "Brown, Orange", "parsed": "Brown, Orange", "reference": "Brown, Orange", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0011-3", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0011-4", "adapter": "oracle", "raw_reply": "शामकुंज", "parsed": "शामकुंज", "reference": "शामकुंज", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0011-5", "adapter": "oracle", "raw_reply": "6", "parsed": "6", "reference": "6", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0012-0", "adapter": "oracle", "raw_reply": "0", "parsed": "0", "reference": "0", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0012-1", "adapter": "oracle", "raw_reply": "impossible", "parsed": "impossible", "reference": "impossible", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0012-2", "adapter": "oracle", "raw_reply": "Brown, Purple", "parsed": "Brown, Purple", "reference": "Brown, Purple", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0012-3", "adapter": "oracle", "raw_reply": "यमगंज", "parsed": "यमगंज", "reference": "यमगंज", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0012-4", "adapter": "oracle", "raw_reply": "6", "parsed": "6", "reference": "6", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0012-5", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0013-0", "adapter": "oracle", "raw_reply": "0", "parsed": "0", "reference": "0", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0013-1", "adapter": "oracle", "raw_reply": "1", "parsed": "1", "reference": "1", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0013-2", "adapter": "oracle", "raw_reply": "Green, Orange, Purple", "parsed": "Green, Orange, Purple", "reference": "Green, Orange, Purple", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0013-3", "adapter": "oracle", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0013-4", "adapter": "oracle", "raw_reply": "हिमगेट", "parsed": "हिमगेट", "reference": "हिमगेट", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0013-5", "adapter": "oracle", "raw_reply": "8", "parsed": "8", "reference": "8", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0000-0", "adapter": "random", "raw_reply": "3", "parsed": "3", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0000-1", "adapter": "random", "raw_reply": "3", "parsed": "3", "reference": "impossible", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0000-2", "adapter": "random", "raw_reply": "Red, Green", "parsed": "Green, Red", "reference": "Green, Purple", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0000-3", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0000-4", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "Prannagar", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0000-5", "adapter": "random", "raw_reply": "3", "parsed": "3", "reference": "6", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0001-0", "adapter": "random", "raw_reply": "3", "parsed": "3", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0001-1", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "impossible", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0001-2", "adapter": "random", "raw_reply": "Green, Orange", "parsed": "Green, Orange", "reference": "Brown, Purple", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0001-3", "adapter": "random", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0001-4", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "Umavihar", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0001-5", "adapter": "random", "raw_reply": "1", "parsed": "1", "reference": "6", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0002-0", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "4", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0002-1", "adapter": "random", "raw_reply": "1", "parsed": "1", "reference": "impossible", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0002-2", "adapter": "random", "raw_reply": "Blue, Green", "parsed": "Blue, Green", "reference": "Orange, Red", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0002-3", "adapter": "random", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0002-4", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "Ishavihar", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0002-5", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "5", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0003-0", "adapter": "random", "raw_reply": "0", "parsed": "0", "reference": "1", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0003-1", "adapter": "random", "raw_reply": "0", "parsed": "0", "reference": "impossible", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0003-2", "adapter": "random", "raw_reply": "Brown, Green", "parsed": "Brown, Green", "reference": "Orange, Red", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0003-3", "adapter": "random", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0003-4", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "Nilkunj", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0003-5", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "5", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0004-0", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "0", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0004-1", "adapter": "random", "raw_reply": "1", "parsed": "1", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0004-2", "adapter": "random", "raw_reply": "Green, Red", "parsed": "Green, Red", "reference": "Orange, Purple", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0004-3", "adapter": "random", "raw_reply": "0", "parsed": "0", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0004-4", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "Hargate", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0004-5", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "6", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0005-0", "adapter": "random", "raw_reply": "3", "parsed": "3", "reference": "0", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0005-1", "adapter": "random", "raw_reply": "0", "parsed": "0", "reference": "impossible", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0005-2", "adapter": "random", "raw_reply": "Orange, Green", "parsed": "Green, Orange", "reference": "Green, Red", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0005-3", "adapter": "random", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0005-4", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "Ashawadi", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0005-5", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "6", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0006-0", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "0", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0006-1", "adapter": "random", "raw_reply": "1", "parsed": "1", "reference": "impossible", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0006-2", "adapter": "random", "raw_reply": "Purple, Orange", "parsed": "Orange, Purple", "reference": "Green, Orange", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0006-3", "adapter": "random", "raw_reply": "3", "parsed": "3", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0006-4", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "Dankunj", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0006-5", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "7", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0007-0", "adapter": "random", "raw_reply": "0", "parsed": "0", "reference": "1", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0007-1", "adapter": "random", "raw_reply": "0", "parsed": "0", "reference": "1", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0007-2", "adapter": "random", "raw_reply": "Brown, Orange", "parsed": "Brown, Orange", "reference": "Blue, Green", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0007-3", "adapter": "random", "raw_reply": "0", "parsed": "0", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0007-4", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "सतपेठ", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0007-5", "adapter": "random", "raw_reply": "3", "parsed": "3", "reference": "7", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0008-0", "adapter": "random", "raw_reply": "0", "parsed": "0", "reference": "0", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0008-1", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "impossible", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0008-2", "adapter": "random", "raw_reply": "Green, Blue", "parsed": "Blue, Green", "reference": "Blue, Brown", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0008-3", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "देवचौक", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0008-4", "adapter": "random", "raw_reply": "2", "parsed": "2", "reference": "5", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0008-5", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "0", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0009-0", "adapter": "random", "raw_reply": "1", "parsed": "1", "reference": "0", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0009-1", "adapter": "random", "raw_reply": "1", "parsed": "1", "reference": "impossible", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0009-2", "adapter": "random", "raw_reply": "Blue, Brown", "parsed": "Blue, Brown", "reference": "Blue, Purple", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0009-3", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0009-4", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "रानकुंज", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0009-5", "adapter": "random", "raw_reply": "0", "parsed": "0", "reference": "5", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0010-0", "adapter": "random", "raw_reply": "0", "parsed": "0", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0010-1", "adapter": "random", "raw_reply": "3", "parsed": "3", "reference": "impossible", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0010-2", "adapter": "random", "raw_reply": "Purple, Green", "parsed": "Green, Purple", "reference": "Brown, Red", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0010-3", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0010-4", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "मितबाग", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0010-5", "adapter": "random", "raw_reply": "2", "parsed": "2", "reference": "5", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0011-0", "adapter": "random", "raw_reply": "2", "parsed": "2", "reference": "2", "correct": true, "error": null, "seconds": 0.0}
+{"task_id": "m0011-1", "adapter": "random", "raw_reply": "0", "parsed": "0", "reference": "impossible", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0011-2", "adapter": "random", "raw_reply": "Orange, Red", "parsed": "Orange, Red", "reference": "Brown, Orange", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0011-3", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0011-4", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "शामकुंज", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0011-5", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "6", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0012-0", "adapter": "random", "raw_reply": "1", "parsed": "1", "reference": "0", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0012-1", "adapter": "random", "raw_reply": "2", "parsed": "2", "reference": "impossible", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0012-2", "adapter": "random", "raw_reply": "Purple, Green", "parsed": "Green, Purple", "reference": "Brown, Purple", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0012-3", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "यमगंज", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0012-4", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "6", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0012-5", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0013-0", "adapter": "random", "raw_reply": "3", "parsed": "3", "reference": "0", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0013-1", "adapter": "random", "raw_reply": "2", "parsed": "2", "reference": "1", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0013-2", "adapter": "random", "raw_reply": "Purple, Orange", "parsed": "Orange, Purple", "reference": "Green, Orange, Purple", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0013-3", "adapter": "random", "raw_reply": "0", "parsed": "0", "reference": "2", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0013-4", "adapter": "random", "raw_reply": "Unknown", "parsed": "unknown", "reference": "हिमगेट", "correct": false, "error": null, "seconds": 0.0}
+{"task_id": "m0013-5", "adapter": "random", "raw_reply": "4", "parsed": "4", "reference": "8", "correct": false, "error": null, "seconds": 0.0}

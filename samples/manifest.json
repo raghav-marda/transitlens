@@ -1,0 +1,32 @@
+{
+  "generator_version": "0.1.0",
+  "seed": 7,
+  "maps": 14,
+  "tasks": 84,
+  "rejected_map_candidates": 114,
+  "rejected_tasks": 0,
+  "by_skill": {
+    "route_planning": 16,
+    "counterfactual_reasoning": 14,
+    "interchange_identification": 14,
+    "line_tracing": 12,
+    "legend_matching": 14,
+    "counting": 14
+  },
+  "by_kind": {
+    "interchange_count": 16,
+    "reroute": 14,
+    "lines_at": 14,
+    "stops_between": 12,
+    "connecting_station": 14,
+    "line_length": 14
+  },
+  "skills_covered": [
+    "route_planning",
+    "counterfactual_reasoning",
+    "interchange_identification",
+    "line_tracing",
+    "legend_matching",
+    "counting"
+  ]
+}

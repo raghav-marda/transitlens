@@ -1,0 +1,142 @@
+"""Command line: generate a dataset, validate it, audit the validator, evaluate a model, report."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import random
+import sys
+from pathlib import Path
+
+from .adapters import (
+    ReplayAdapter,
+    Adapter, GeminiAdapter, OpenAICompatibleAdapter, OracleAdapter, RandomAdapter, ThrottledAdapter,
+)
+from .evaluate import evaluate
+from .mutate import audit
+from .report import write_report
+from .tasks import build_dataset, load_tasks, make_map
+from .render import build_primitives, to_svg
+
+
+def _adapter(args: argparse.Namespace, data_dir: Path) -> Adapter:
+    if args.adapter == "oracle":
+        return OracleAdapter(data_dir)
+    if args.adapter == "random":
+        return RandomAdapter(args.seed)
+    if args.adapter == "gemini":
+        return GeminiAdapter(args.model or "gemini-2.5-flash")
+    if args.adapter == "replay":
+        if not args.answers:
+            raise SystemExit("--adapter replay needs --answers")
+        return ReplayAdapter(Path(args.answers), args.name)
+    if args.adapter == "openai":
+        if not (args.base_url and args.model):
+            raise SystemExit("--adapter openai needs --base-url and --model")
+        return OpenAICompatibleAdapter(args.base_url, args.model)
+    raise SystemExit(f"unknown adapter {args.adapter}")
+
+
+def cmd_generate(args: argparse.Namespace) -> int:
+    manifest = build_dataset(Path(args.out), args.maps, args.questions, args.seed, args.tier)
+    print(json.dumps(manifest, indent=2))
+    return 0
+
+
+def cmd_validate(args: argparse.Namespace) -> int:
+    from .parse_svg import parse_svg
+    from .questions import answer_for
+
+    data_dir = Path(args.data)
+    tasks = load_tasks(data_dir)
+    failures = 0
+    for task in tasks:
+        parsed = parse_svg((data_dir / str(task["svg"])).read_text(encoding="utf-8"))
+        derived = answer_for(str(task["kind"]), dict(task["params"]), parsed.network)  # type: ignore[arg-type]
+        if parsed.issues or derived != task["answer"]:
+            failures += 1
+            print(f"FAIL {task['task_id']}: {parsed.issues or derived!r}")
+    print(f"{len(tasks) - failures}/{len(tasks)} tasks re-derived from the drawing alone")
+    return 1 if failures else 0
+
+
+def cmd_audit(args: argparse.Namespace) -> int:
+    totals: dict[str, list[int]] = {}
+    for index in range(args.maps):
+        m, _ = make_map(args.seed, index)
+        svg = to_svg(m, build_primitives(m))
+        for name, (caught, applied) in audit(m, svg, random.Random(args.seed + index)).items():
+            slot = totals.setdefault(name, [0, 0])
+            slot[0] += caught
+            slot[1] += applied
+    print("| Corruption | Caught / applied |\n|---|---|")
+    for name, (caught, applied) in totals.items():
+        print(f"| {name} | {caught}/{applied} |")
+    return 0 if all(c == a for c, a in totals.values()) else 1
+
+
+def cmd_evaluate(args: argparse.Namespace) -> int:
+    data_dir = Path(args.data)
+    tasks = load_tasks(data_dir)
+    if args.limit:
+        tasks = tasks[: args.limit]
+    adapter = _adapter(args, data_dir)
+    if args.delay > 0:
+        adapter = ThrottledAdapter(adapter, args.delay)
+    rows = evaluate(adapter, data_dir, tasks, data_dir / "results.jsonl", args.workers)
+    correct = sum(1 for r in rows if r["correct"])
+    print(f"{adapter.name}: {correct}/{len(rows)} correct")
+    return 0
+
+
+def cmd_report(args: argparse.Namespace) -> int:
+    data_dir = Path(args.data)
+    text = write_report(data_dir, data_dir / "results.jsonl", data_dir / "report.md", load_tasks(data_dir))
+    print(text)
+    return 0
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(prog="transitlens", description=__doc__)
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    g = sub.add_parser("generate", help="build a validated dataset")
+    g.add_argument("--out", default="out")
+    g.add_argument("--maps", type=int, default=30)
+    g.add_argument("--questions", type=int, default=6, help="questions per map")
+    g.add_argument("--seed", type=int, default=7)
+    g.add_argument("--tier", choices=["standard", "hard"], default="standard")
+    g.set_defaults(func=cmd_generate)
+
+    v = sub.add_parser("validate", help="re-derive every answer from the drawings alone")
+    v.add_argument("--data", default="out")
+    v.set_defaults(func=cmd_validate)
+
+    a = sub.add_parser("audit", help="corrupt drawings and check the validator catches it")
+    a.add_argument("--maps", type=int, default=20)
+    a.add_argument("--seed", type=int, default=7)
+    a.set_defaults(func=cmd_audit)
+
+    e = sub.add_parser("evaluate", help="run a model over the dataset")
+    e.add_argument("--data", default="out")
+    e.add_argument("--adapter", choices=["oracle", "random", "gemini", "openai", "replay"], default="oracle")
+    e.add_argument("--model")
+    e.add_argument("--answers", help="replay: JSONL of {task_id, reply}")
+    e.add_argument("--name", default="replay", help="replay: label shown in the report")
+    e.add_argument("--base-url")
+    e.add_argument("--workers", type=int, default=4)
+    e.add_argument("--limit", type=int, default=0)
+    e.add_argument("--delay", type=float, default=0.0, help="minimum seconds between calls (rate limits)")
+    e.add_argument("--seed", type=int, default=0)
+    e.set_defaults(func=cmd_evaluate)
+
+    r = sub.add_parser("report", help="write report.md with per-skill findings")
+    r.add_argument("--data", default="out")
+    r.set_defaults(func=cmd_report)
+
+    args = parser.parse_args(argv)
+    return int(args.func(args))
+
+
+if __name__ == "__main__":
+    sys.exit(main())

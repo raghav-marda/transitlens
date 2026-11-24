@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="672" height="564" viewBox="0 0 672 564">
+<rect x="0" y="0" width="672" height="564" fill="#ffffff" data-role="background"/>
+<polyline points="192.0,96.0 288.0,96.0 384.0,96.0 480.0,192.0 576.0,288.0" fill="none" stroke="#cc79a7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="480.0,192.0 384.0,288.0 288.0,384.0 192.0,384.0 96.0,288.0" fill="none" stroke="#d55e00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96.0,288.0 192.0,288.0 288.0,288.0 384.0,288.0 480.0,288.0 576.0,384.0" fill="none" stroke="#e69f00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="96.0" cy="288.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="192.0" cy="96.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="192.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="192.0" cy="384.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="288.0" cy="96.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="288.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="288.0" cy="384.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="384.0" cy="96.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="384.0" cy="288.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="480.0" cy="192.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="480.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="576.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="576.0" cy="384.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<text x="78.0" y="292.6" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Ganchowk</text>
+<text x="402.0" y="313.8" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Kespur</text>
+<text x="498.0" y="196.6" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Nilkunj</text>
+<text x="179.0" y="100.5" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Umawadi</text>
+<text x="480.0" y="267.2" font-size="13" text-anchor="middle" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Gulvihar</text>
+<text x="589.0" y="292.6" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Surchowk</text>
+<text x="589.0" y="388.6" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Devvihar</text>
+<text x="192.0" y="267.2" font-size="13" text-anchor="middle" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Surgate</text>
+<text x="205.0" y="363.2" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Fatkunj</text>
+<text x="288.0" y="75.2" font-size="13" text-anchor="middle" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Morganj</text>
+<text x="288.0" y="267.2" font-size="13" text-anchor="middle" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Yampet</text>
+<text x="301.0" y="404.8" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Mitvihar</text>
+<text x="384.0" y="75.2" font-size="13" text-anchor="middle" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Himpur</text>
+<rect x="96.0" y="515.0" width="34" height="14" fill="#cc79a7"/>
+<text x="140.0" y="527.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Purple Line</text>
+<rect x="285.6" y="515.0" width="34" height="14" fill="#d55e00"/>
+<text x="329.6" y="527.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Red Line</text>
+<rect x="446.4" y="515.0" width="34" height="14" fill="#e69f00"/>
+<text x="490.4" y="527.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Orange Line</text>
+</svg>

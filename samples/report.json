@@ -1,0 +1,510 @@
+{
+  "oracle": {
+    "tasks_scored": 84,
+    "call_errors": 0,
+    "accuracy": 1.0,
+    "ci95": [
+      0.956,
+      1.0
+    ],
+    "wrong": 0,
+    "wrong_off_by_one": 0,
+    "by_skill": [
+      {
+        "bucket": "counterfactual_reasoning",
+        "correct": 14,
+        "total": 14,
+        "accuracy": 1.0,
+        "ci95": [
+          0.785,
+          1.0
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "counting",
+        "correct": 14,
+        "total": 14,
+        "accuracy": 1.0,
+        "ci95": [
+          0.785,
+          1.0
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "interchange_identification",
+        "correct": 14,
+        "total": 14,
+        "accuracy": 1.0,
+        "ci95": [
+          0.785,
+          1.0
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "legend_matching",
+        "correct": 14,
+        "total": 14,
+        "accuracy": 1.0,
+        "ci95": [
+          0.785,
+          1.0
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "line_tracing",
+        "correct": 12,
+        "total": 12,
+        "accuracy": 1.0,
+        "ci95": [
+          0.757,
+          1.0
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "route_planning",
+        "correct": 16,
+        "total": 16,
+        "accuracy": 1.0,
+        "ci95": [
+          0.806,
+          1.0
+        ],
+        "low_n": true
+      }
+    ],
+    "by_kind": [
+      {
+        "bucket": "connecting_station",
+        "correct": 14,
+        "total": 14,
+        "accuracy": 1.0,
+        "ci95": [
+          0.785,
+          1.0
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "interchange_count",
+        "correct": 16,
+        "total": 16,
+        "accuracy": 1.0,
+        "ci95": [
+          0.806,
+          1.0
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "line_length",
+        "correct": 14,
+        "total": 14,
+        "accuracy": 1.0,
+        "ci95": [
+          0.785,
+          1.0
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "lines_at",
+        "correct": 14,
+        "total": 14,
+        "accuracy": 1.0,
+        "ci95": [
+          0.785,
+          1.0
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "reroute",
+        "correct": 14,
+        "total": 14,
+        "accuracy": 1.0,
+        "ci95": [
+          0.785,
+          1.0
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "stops_between",
+        "correct": 12,
+        "total": 12,
+        "accuracy": 1.0,
+        "ci95": [
+          0.757,
+          1.0
+        ],
+        "low_n": true
+      }
+    ],
+    "by_crossings": [
+      {
+        "bucket": "no crossings",
+        "correct": 30,
+        "total": 30,
+        "accuracy": 1.0,
+        "ci95": [
+          0.886,
+          1.0
+        ],
+        "low_n": false
+      },
+      {
+        "bucket": "with station-less crossings",
+        "correct": 54,
+        "total": 54,
+        "accuracy": 1.0,
+        "ci95": [
+          0.934,
+          1.0
+        ],
+        "low_n": false
+      }
+    ],
+    "by_lines": [
+      {
+        "bucket": "3 lines",
+        "correct": 30,
+        "total": 30,
+        "accuracy": 1.0,
+        "ci95": [
+          0.886,
+          1.0
+        ],
+        "low_n": false
+      },
+      {
+        "bucket": "4 lines",
+        "correct": 30,
+        "total": 30,
+        "accuracy": 1.0,
+        "ci95": [
+          0.886,
+          1.0
+        ],
+        "low_n": false
+      },
+      {
+        "bucket": "5 lines",
+        "correct": 24,
+        "total": 24,
+        "accuracy": 1.0,
+        "ci95": [
+          0.862,
+          1.0
+        ],
+        "low_n": false
+      }
+    ],
+    "by_palette": [
+      {
+        "bucket": "cb_safe",
+        "correct": 36,
+        "total": 36,
+        "accuracy": 1.0,
+        "ci95": [
+          0.904,
+          1.0
+        ],
+        "low_n": false
+      },
+      {
+        "bucket": "classic",
+        "correct": 48,
+        "total": 48,
+        "accuracy": 1.0,
+        "ci95": [
+          0.926,
+          1.0
+        ],
+        "low_n": false
+      }
+    ],
+    "by_script": [
+      {
+        "bucket": "devanagari",
+        "correct": 42,
+        "total": 42,
+        "accuracy": 1.0,
+        "ci95": [
+          0.916,
+          1.0
+        ],
+        "low_n": false
+      },
+      {
+        "bucket": "latin",
+        "correct": 42,
+        "total": 42,
+        "accuracy": 1.0,
+        "ci95": [
+          0.916,
+          1.0
+        ],
+        "low_n": false
+      }
+    ]
+  },
+  "random": {
+    "tasks_scored": 84,
+    "call_errors": 0,
+    "accuracy": 0.083,
+    "ci95": [
+      0.041,
+      0.162
+    ],
+    "wrong": 77,
+    "wrong_off_by_one": 12,
+    "by_skill": [
+      {
+        "bucket": "counterfactual_reasoning",
+        "correct": 0,
+        "total": 14,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.215
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "counting",
+        "correct": 0,
+        "total": 14,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.215
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "interchange_identification",
+        "correct": 0,
+        "total": 14,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.215
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "legend_matching",
+        "correct": 0,
+        "total": 14,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.215
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "line_tracing",
+        "correct": 4,
+        "total": 12,
+        "accuracy": 0.333,
+        "ci95": [
+          0.138,
+          0.609
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "route_planning",
+        "correct": 3,
+        "total": 16,
+        "accuracy": 0.188,
+        "ci95": [
+          0.066,
+          0.43
+        ],
+        "low_n": true
+      }
+    ],
+    "by_kind": [
+      {
+        "bucket": "connecting_station",
+        "correct": 0,
+        "total": 14,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.215
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "interchange_count",
+        "correct": 3,
+        "total": 16,
+        "accuracy": 0.188,
+        "ci95": [
+          0.066,
+          0.43
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "line_length",
+        "correct": 0,
+        "total": 14,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.215
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "lines_at",
+        "correct": 0,
+        "total": 14,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.215
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "reroute",
+        "correct": 0,
+        "total": 14,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.215
+        ],
+        "low_n": true
+      },
+      {
+        "bucket": "stops_between",
+        "correct": 4,
+        "total": 12,
+        "accuracy": 0.333,
+        "ci95": [
+          0.138,
+          0.609
+        ],
+        "low_n": true
+      }
+    ],
+    "by_crossings": [
+      {
+        "bucket": "no crossings",
+        "correct": 2,
+        "total": 30,
+        "accuracy": 0.067,
+        "ci95": [
+          0.018,
+          0.213
+        ],
+        "low_n": false
+      },
+      {
+        "bucket": "with station-less crossings",
+        "correct": 5,
+        "total": 54,
+        "accuracy": 0.093,
+        "ci95": [
+          0.04,
+          0.199
+        ],
+        "low_n": false
+      }
+    ],
+    "by_lines": [
+      {
+        "bucket": "3 lines",
+        "correct": 1,
+        "total": 30,
+        "accuracy": 0.033,
+        "ci95": [
+          0.006,
+          0.167
+        ],
+        "low_n": false
+      },
+      {
+        "bucket": "4 lines",
+        "correct": 1,
+        "total": 30,
+        "accuracy": 0.033,
+        "ci95": [
+          0.006,
+          0.167
+        ],
+        "low_n": false
+      },
+      {
+        "bucket": "5 lines",
+        "correct": 5,
+        "total": 24,
+        "accuracy": 0.208,
+        "ci95": [
+          0.092,
+          0.405
+        ],
+        "low_n": false
+      }
+    ],
+    "by_palette": [
+      {
+        "bucket": "cb_safe",
+        "correct": 3,
+        "total": 36,
+        "accuracy": 0.083,
+        "ci95": [
+          0.029,
+          0.218
+        ],
+        "low_n": false
+      },
+      {
+        "bucket": "classic",
+        "correct": 4,
+        "total": 48,
+        "accuracy": 0.083,
+        "ci95": [
+          0.033,
+          0.196
+        ],
+        "low_n": false
+      }
+    ],
+    "by_script": [
+      {
+        "bucket": "devanagari",
+        "correct": 2,
+        "total": 42,
+        "accuracy": 0.048,
+        "ci95": [
+          0.013,
+          0.158
+        ],
+        "low_n": false
+      },
+      {
+        "bucket": "latin",
+        "correct": 5,
+        "total": 42,
+        "accuracy": 0.119,
+        "ci95": [
+          0.052,
+          0.25
+        ],
+        "low_n": false
+      }
+    ]
+  }
+}

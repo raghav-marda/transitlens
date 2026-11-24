@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="660" viewBox="0 0 1152 660">
+<rect x="0" y="0" width="1152" height="660" fill="#fbf6e9" data-role="background"/>
+<polyline points="576.0,192.0 672.0,288.0 768.0,384.0 864.0,480.0 960.0,480.0 1056.0,480.0" fill="none" stroke="#9467bd" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="576.0,192.0 576.0,288.0 480.0,384.0 384.0,384.0 288.0,384.0 192.0,480.0" fill="none" stroke="#1f77b4" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="384.0,384.0 288.0,480.0 192.0,480.0 96.0,384.0 96.0,288.0 192.0,192.0 192.0,96.0" fill="none" stroke="#8c564b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="288.0,480.0 192.0,384.0 192.0,288.0 96.0,192.0 96.0,96.0" fill="none" stroke="#2ca02c" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96.0,288.0 192.0,288.0 288.0,288.0 384.0,288.0 480.0,288.0 576.0,288.0" fill="none" stroke="#ff7f0e" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="96.0" cy="96.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="96.0" cy="192.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="96.0" cy="288.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="96.0" cy="384.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="192.0" cy="96.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="192.0" cy="192.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="192.0" cy="288.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="192.0" cy="384.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="192.0" cy="480.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="288.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="288.0" cy="384.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="288.0" cy="480.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="384.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="384.0" cy="384.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="480.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="480.0" cy="384.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="576.0" cy="192.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="576.0" cy="288.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="672.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="768.0" cy="384.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="864.0" cy="480.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="960.0" cy="480.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="1056.0" cy="480.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<text x="306.0" y="484.6" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">फतवाड़ी</text>
+<text x="384.0" y="358.2" font-size="13" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">बलपुर</text>
+<text x="594.0" y="196.6" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">तारवाड़ी</text>
+<text x="594.0" y="292.6" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">देवचौक</text>
+<text x="78.0" y="292.6" font-size="13" text-anchor="end" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">ईशाबाग</text>
+<text x="210.0" y="262.2" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">हिमवाड़ी</text>
+<text x="174.0" y="484.6" font-size="13" text-anchor="end" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">बलबाग</text>
+<text x="109.0" y="100.5" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">ईशावाड़ी</text>
+<text x="83.0" y="196.6" font-size="13" text-anchor="end" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">रानपेठ</text>
+<text x="288.0" y="363.2" font-size="13" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">दानकुंज</text>
+<text x="384.0" y="267.2" font-size="13" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">पदपुर</text>
+<text x="480.0" y="267.2" font-size="13" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">प्राननगर</text>
+<text x="493.0" y="404.8" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">पदचौक</text>
+<text x="685.0" y="267.2" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">सतबाग</text>
+<text x="781.0" y="363.2" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">चंदविहार</text>
+<text x="877.0" y="459.2" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">राजगंज</text>
+<text x="960.0" y="459.2" font-size="13" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">वेदवाड़ी</text>
+<text x="1069.0" y="484.6" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">नवपुर</text>
+<text x="83.0" y="388.6" font-size="13" text-anchor="end" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">चंदगंज</text>
+<text x="205.0" y="100.5" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">मितपुर</text>
+<text x="205.0" y="196.6" font-size="13" text-anchor="start" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">पदनगर</text>
+<text x="179.0" y="388.6" font-size="13" text-anchor="end" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">प्रानगेट</text>
+<text x="288.0" y="267.2" font-size="13" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, sans-serif" fill="#1a1a1a">यमगेट</text>
+<rect x="96.0" y="611.0" width="34" height="14" fill="#9467bd"/>
+<text x="140.0" y="623.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Purple Line</text>
+<rect x="285.6" y="611.0" width="34" height="14" fill="#1f77b4"/>
+<text x="329.6" y="623.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Blue Line</text>
+<rect x="456.0" y="611.0" width="34" height="14" fill="#8c564b"/>
+<text x="500.0" y="623.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Brown Line</text>
+<rect x="636.0" y="611.0" width="34" height="14" fill="#2ca02c"/>
+<text x="680.0" y="623.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Green Line</text>
+<rect x="816.0" y="611.0" width="34" height="14" fill="#ff7f0e"/>
+<text x="860.0" y="623.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Orange Line</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1056" height="948" viewBox="0 0 1056 948">
+<rect x="0" y="0" width="1056" height="948" fill="#ffffff" data-role="background"/>
+<polyline points="384.0,288.0 384.0,384.0 480.0,480.0 576.0,576.0 672.0,672.0 768.0,768.0 864.0,768.0 960.0,768.0" fill="none" stroke="#ff7f0e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="576.0,576.0 480.0,672.0 384.0,672.0 288.0,768.0 192.0,768.0 96.0,768.0" fill="none" stroke="#8c564b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="384.0,672.0 480.0,576.0 576.0,480.0 576.0,384.0 576.0,288.0" fill="none" stroke="#9467bd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="576.0,480.0 480.0,384.0 480.0,288.0 576.0,192.0 672.0,96.0 768.0,96.0 864.0,96.0" fill="none" stroke="#2ca02c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="96.0" cy="768.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="192.0" cy="768.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="288.0" cy="768.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="384.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="384.0" cy="384.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="384.0" cy="672.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="480.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="480.0" cy="384.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="480.0" cy="480.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="480.0" cy="576.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="480.0" cy="672.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="576.0" cy="192.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="576.0" cy="288.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="576.0" cy="384.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="576.0" cy="480.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="576.0" cy="576.0" r="12" fill="#ffffff" stroke="#1a1a1a" stroke-width="4"/>
+<circle cx="672.0" cy="96.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="672.0" cy="672.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="768.0" cy="96.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="768.0" cy="768.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="864.0" cy="96.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="864.0" cy="768.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="960.0" cy="768.0" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+<text x="558.0" y="484.6" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Morpet</text>
+<text x="594.0" y="580.5" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Umavihar</text>
+<text x="366.0" y="676.5" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Ishachowk</text>
+<text x="83.0" y="772.5" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Mandchowk</text>
+<text x="192.0" y="747.2" font-size="13" text-anchor="middle" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Vedbagh</text>
+<text x="493.0" y="692.8" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Harganj</text>
+<text x="589.0" y="212.8" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Gannagar</text>
+<text x="563.0" y="292.6" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Devnagar</text>
+<text x="563.0" y="388.6" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Fatpur</text>
+<text x="672.0" y="75.2" font-size="13" text-anchor="middle" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Ganwadi</text>
+<text x="685.0" y="651.2" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Morchowk</text>
+<text x="768.0" y="75.2" font-size="13" text-anchor="middle" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Padganj</text>
+<text x="755.0" y="788.8" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Shamvihar</text>
+<text x="301.0" y="788.8" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Mitganj</text>
+<text x="877.0" y="100.5" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Ganpur</text>
+<text x="864.0" y="747.2" font-size="13" text-anchor="middle" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Ekakunj</text>
+<text x="973.0" y="772.5" font-size="13" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Mitpur</text>
+<text x="371.0" y="292.6" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Kespet</text>
+<text x="371.0" y="388.6" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Ashaganj</text>
+<text x="467.0" y="292.6" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Jaikunj</text>
+<text x="467.0" y="388.6" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Fatgate</text>
+<text x="467.0" y="500.8" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Morkunj</text>
+<text x="467.0" y="555.2" font-size="13" text-anchor="end" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Chanbagh</text>
+<rect x="96.0" y="899.0" width="34" height="14" fill="#ff7f0e"/>
+<text x="140.0" y="911.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Orange Line</text>
+<rect x="285.6" y="899.0" width="34" height="14" fill="#8c564b"/>
+<text x="329.6" y="911.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Brown Line</text>
+<rect x="465.6" y="899.0" width="34" height="14" fill="#9467bd"/>
+<text x="509.6" y="911.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Purple Line</text>
+<rect x="655.2" y="899.0" width="34" height="14" fill="#2ca02c"/>
+<text x="699.2" y="911.0" font-size="16" text-anchor="start" font-family="DejaVu Sans, sans-serif" fill="#1a1a1a">Green Line</text>
+</svg>
