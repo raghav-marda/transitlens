@@ -65,6 +65,7 @@ LLM_API_KEY=...    transitlens evaluate --data out --adapter openai --base-url h
 transitlens evaluate --data out --adapter replay --answers replies.jsonl --name "my-model"  # score replies collected elsewhere
 transitlens report --data out                                       # per-skill findings with 95% CIs
 pytest                                                              # 155 tests
+docker build -t transitlens . && docker run --rm transitlens      # full reproduction in a container
 ```
 
 Evaluation is parallel and resumable; a failed API call is recorded as an error and never
