@@ -156,3 +156,20 @@ def test_degrade_keeps_tasks_and_shrinks_images(tmp_path):
         with Image.open(path) as full, Image.open(target / "images" / path.name) as low:
             assert low.width == round(full.width * 0.5)
     assert '"scale": 0.5' in (target / "manifest.json").read_text()
+
+
+def test_gallery_lists_only_wrong_answers(tmp_path):
+    import json
+
+    from transitlens.cli import main
+
+    data = tmp_path / "data"
+    assert main(["generate", "--out", str(data), "--maps", "2", "--questions", "3", "--seed", "5"]) == 0
+    assert main(["evaluate", "--data", str(data), "--adapter", "random", "--seed", "1"]) == 0
+    out = tmp_path / "gallery.md"
+    assert main(["gallery", "--data", str(data), "--name", "random", "--out", str(out), "--limit", "3"]) == 0
+    text = out.read_text()
+    rows = [json.loads(line) for line in (data / "results.jsonl").read_text().splitlines()]
+    wrong = [r for r in rows if not r["correct"]]
+    assert f"{len(wrong)} wrong answers" in text
+    assert text.count("**Reference answer:**") <= 3

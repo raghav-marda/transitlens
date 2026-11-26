@@ -128,6 +128,43 @@ def cmd_degrade(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_gallery(args: argparse.Namespace) -> int:
+    """Write a markdown gallery of wrong answers: image, question, model reply, reference."""
+    import json
+    import shutil
+
+    data, out = Path(args.data), Path(args.out)
+    tasks = {t["task_id"]: t for t in (json.loads(l) for l in (data / "tasks.jsonl").read_text().splitlines() if l.strip())}
+    rows = [json.loads(l) for l in (data / "results.jsonl").read_text().splitlines() if l.strip()]
+    wrong = [r for r in rows if r["adapter"] == args.name and not r["correct"] and not r.get("error")]
+    chosen: list[dict] = []
+    seen_skills: dict[str, int] = {}
+    # Spread the examples over skills so the gallery shows the range of failures, not one kind.
+    for row in sorted(wrong, key=lambda r: (seen_skills.get(tasks[r["task_id"]]["skill"], 0), r["task_id"])):
+        skill = tasks[row["task_id"]]["skill"]
+        if seen_skills.get(skill, 0) >= args.per_skill or len(chosen) >= args.limit:
+            continue
+        seen_skills[skill] = seen_skills.get(skill, 0) + 1
+        chosen.append(row)
+    image_dir = out.parent / (out.stem + "_images")
+    image_dir.mkdir(parents=True, exist_ok=True)
+    lines = [f"# Failure gallery: {args.name}", "",
+             f"{len(wrong)} wrong answers; {len(chosen)} shown, spread over skills. Images are exactly what the model saw.", ""]
+    for row in chosen:
+        task = tasks[row["task_id"]]
+        name = Path(task["image"]).name
+        shutil.copy(data / task["image"], image_dir / name)
+        d = task["difficulty"]
+        lines += [f"## {row['task_id']} ({task['skill']}, {d['script']} names, {d['n_lines']} lines)", "",
+                  f"![map]({image_dir.name}/{name})", "",
+                  f"**Question:** {task['question']}", "",
+                  f"**Model replied:** `{row['raw_reply'].strip()[:200]}`", "",
+                  f"**Reference answer:** `{task['answer']}`", ""]
+    out.write_text("\n".join(lines), encoding="utf-8")
+    print(f"wrote {out} with {len(chosen)} examples")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="transitlens", description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -168,6 +205,14 @@ def main(argv: list[str] | None = None) -> int:
     d.add_argument("--scale", type=float, default=0.4)
     d.add_argument("--quality", type=int, default=25)
     d.set_defaults(func=cmd_degrade)
+
+    gl = sub.add_parser("gallery", help="write a markdown gallery of wrong answers for one run")
+    gl.add_argument("--data", default="out")
+    gl.add_argument("--name", required=True, help="adapter label used in results.jsonl")
+    gl.add_argument("--out", default="failure_gallery.md")
+    gl.add_argument("--limit", type=int, default=8)
+    gl.add_argument("--per-skill", type=int, default=2)
+    gl.set_defaults(func=cmd_gallery)
 
     r = sub.add_parser("report", help="write report.md with per-skill findings")
     r.add_argument("--data", default="out")

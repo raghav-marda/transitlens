@@ -65,7 +65,7 @@ GEMINI_API_KEY=... transitlens evaluate --data out --adapter gemini --model gemi
 LLM_API_KEY=...    transitlens evaluate --data out --adapter openai --base-url https://HOST/v1 --model NAME
 transitlens evaluate --data out --adapter replay --answers replies.jsonl --name "my-model"  # score replies collected elsewhere
 transitlens report --data out                                       # per-skill findings with 95% CIs
-pytest                                                              # 156 tests
+pytest                                                              # 157 tests
 docker build -t transitlens . && docker run --rm transitlens      # full reproduction in a container
 ```
 
@@ -119,6 +119,9 @@ resolution. Both agents reported that many answers were guesses (Haiku said most
 50 of 120), which is the finding: the models guess instead of declining when the image is
 unreadable.
 
+Examples of the wrong answers, with the exact image the model saw, are in
+[docs/failure_gallery.md](docs/failure_gallery.md) (`transitlens gallery`).
+
 Caveats: these are chat-session runs, not API runs, on 20 maps, so the intervals are wide; the
 image pipeline of the chat session may itself downscale images; resolution loss is an artificial
 stress, not a natural one; Haiku and Sonnet are not the organisers' models.
@@ -169,7 +172,7 @@ src/transitlens/
   evaluate.py   parallel, resumable runner
   scoring.py    answer normalisation, Wilson interval
   report.py     per-skill findings
-tests/          156 tests, 94% line coverage
+tests/          157 tests, 94% line coverage
 ```
 
 ## Reused components
