@@ -37,7 +37,11 @@ Pillow, lxml, requests, pytest, DejaVu Sans and Noto Sans Devanagari (SIL Open F
 * No manual fixes were made to any generated output.
 
 ## Findings so far
-Standard tier (180 tasks): oracle 180, random 21, Haiku 180, Sonnet 179 and 179. Both Sonnet
-misses were a line-length count. The standard tier is a ceiling for these models; the hard tier
-was added for that reason and passes the same validator and the oracle (120/120). Hard-tier model
-results are not collected yet.
+Clean images: standard tier (180 tasks) oracle 180, random 21, Haiku 180, Sonnet 179 and 179;
+hard tier (120 tasks) Haiku 120, Sonnet 120. Both are ceilings for these models.
+
+Degraded images (hard tasks at 40% size, JPEG quality 25): Sonnet 77/120 (64%), Haiku 24/120
+(20%), random 11/120. Sonnet reached 84.6% on Latin names but 26.2% on Devanagari. Counting and
+line length survived (95%); legend matching and connecting-station fell to 45%. Both models
+reported guessing on many answers instead of declining. These are chat-session runs, not API
+runs, on 20 maps; the intervals are wide and the models are not the organisers' models.

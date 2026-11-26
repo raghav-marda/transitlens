@@ -141,3 +141,18 @@ def test_cli_end_to_end(tmp_path, capsys):
     assert main(["evaluate", "--data", out, "--adapter", "oracle"]) == 0
     assert main(["report", "--data", out]) == 0
     assert "oracle" in capsys.readouterr().out
+
+
+def test_degrade_keeps_tasks_and_shrinks_images(tmp_path):
+    from PIL import Image
+
+    from transitlens.cli import main
+
+    source, target = tmp_path / "src", tmp_path / "low"
+    assert main(["generate", "--out", str(source), "--maps", "2", "--questions", "2", "--seed", "3"]) == 0
+    assert main(["degrade", "--data", str(source), "--out", str(target), "--scale", "0.5", "--quality", "30"]) == 0
+    assert (source / "tasks.jsonl").read_text() == (target / "tasks.jsonl").read_text()
+    for path in (source / "images").glob("*.png"):
+        with Image.open(path) as full, Image.open(target / "images" / path.name) as low:
+            assert low.width == round(full.width * 0.5)
+    assert '"scale": 0.5' in (target / "manifest.json").read_text()

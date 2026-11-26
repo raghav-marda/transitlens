@@ -96,6 +96,38 @@ def cmd_report(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_degrade(args: argparse.Namespace) -> int:
+    """Copy a dataset with degraded images (downscale plus JPEG artefacts) to test robustness."""
+    import io
+    import json
+    import shutil
+
+    from PIL import Image
+
+    src, dst = Path(args.data), Path(args.out)
+    (dst / "images").mkdir(parents=True, exist_ok=True)
+    for name in ("tasks.jsonl",):
+        shutil.copy(src / name, dst / name)
+    if (src / "maps").exists():
+        shutil.copytree(src / "maps", dst / "maps", dirs_exist_ok=True)
+    count = 0
+    for path in sorted((src / "images").glob("*.png")):
+        with Image.open(path) as image:
+            image = image.convert("RGB")
+            size = (max(1, round(image.width * args.scale)), max(1, round(image.height * args.scale)))
+            small = image.resize(size, Image.LANCZOS)
+        buffer = io.BytesIO()
+        small.save(buffer, "JPEG", quality=args.quality)
+        buffer.seek(0)
+        Image.open(buffer).convert("RGB").save(dst / "images" / path.name, optimize=True)
+        count += 1
+    manifest = json.loads((src / "manifest.json").read_text()) if (src / "manifest.json").exists() else {}
+    manifest["degraded"] = {"scale": args.scale, "jpeg_quality": args.quality}
+    (dst / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    print(f"degraded {count} images (scale {args.scale}, jpeg quality {args.quality}) -> {dst}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="transitlens", description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -129,6 +161,13 @@ def main(argv: list[str] | None = None) -> int:
     e.add_argument("--delay", type=float, default=0.0, help="minimum seconds between calls (rate limits)")
     e.add_argument("--seed", type=int, default=0)
     e.set_defaults(func=cmd_evaluate)
+
+    d = sub.add_parser("degrade", help="copy a dataset with lower-resolution, JPEG-compressed images")
+    d.add_argument("--data", default="out")
+    d.add_argument("--out", required=True)
+    d.add_argument("--scale", type=float, default=0.4)
+    d.add_argument("--quality", type=int, default=25)
+    d.set_defaults(func=cmd_degrade)
 
     r = sub.add_parser("report", help="write report.md with per-skill findings")
     r.add_argument("--data", default="out")

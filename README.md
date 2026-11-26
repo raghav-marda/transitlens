@@ -55,7 +55,8 @@ broken down instead of averaged away.
 ```bash
 pip install -e ".[dev]"
 transitlens generate --out out --maps 30 --questions 6 --seed 7   # tasks + images + manifest
-transitlens generate --out hard --maps 20 --seed 33 --tier hard   # denser maps: 5-6 lines, 39-53 stations
+transitlens generate --out hard --maps 20 --seed 33 --tier hard
+transitlens degrade --data hard --out hard_low --scale 0.4 --quality 25   # robustness stress test   # denser maps: 5-6 lines, 39-53 stations
 transitlens validate --data out                                     # re-derive every answer from the drawings
 transitlens audit --maps 20                                         # does the validator catch corrupted drawings?
 transitlens evaluate --data out --adapter oracle                    # solvable? (should be 100%)
@@ -64,7 +65,7 @@ GEMINI_API_KEY=... transitlens evaluate --data out --adapter gemini --model gemi
 LLM_API_KEY=...    transitlens evaluate --data out --adapter openai --base-url https://HOST/v1 --model NAME
 transitlens evaluate --data out --adapter replay --answers replies.jsonl --name "my-model"  # score replies collected elsewhere
 transitlens report --data out                                       # per-skill findings with 95% CIs
-pytest                                                              # 155 tests
+pytest                                                              # 156 tests
 docker build -t transitlens . && docker run --rm transitlens      # full reproduction in a container
 ```
 
@@ -98,10 +99,29 @@ These are **not API runs** and they are not the organisers' models:
 | Claude Sonnet 5.5, run 1 | 179 |
 | Claude Sonnet 5.5, run 2 (a request for Opus fell back to Sonnet) | 179 |
 
-Finding: the standard tier is a ceiling for current Claude models, so it separates nothing. The
-two Sonnet misses were one line-length count each. This is why the `hard` tier exists (5-6 lines,
-39-53 stations, always with station-less crossings). It passes the same validator (120/120 tasks)
-and the oracle (120/120). Model results on the hard tier have not been collected yet.
+Hard tier (same method, 120 tasks, seed 33): oracle 120, random 5 (4.2%), Claude Haiku 120,
+Claude Sonnet 120. Clean images at full resolution are not hard enough for these models.
+
+**Degraded-image stress test** (`transitlens degrade --scale 0.4 --quality 25`, same hard tasks,
+images shrunk to 40% and JPEG-compressed). This is where the tasks separate:
+
+| Run | Correct / 120 | Latin names | Devanagari names |
+|---|---|---|---|
+| oracle | 120 | 78/78 | 42/42 |
+| Claude Sonnet 5.5 | 77 (64.2%, CI 55 to 72%) | 66/78 (84.6%) | 11/42 (26.2%) |
+| Claude Haiku 5.5 | 24 (20.0%, CI 14 to 28%) | 17/78 (21.8%) | 7/42 (16.7%) |
+| random guess | 11 (9.2%) | 9/78 | 2/42 |
+
+What failed, for Sonnet: skills that need to read labels or follow a thin line collapsed
+(legend matching 45%, connecting station 45%, lines at a station 60%), while pure structure
+survived (counting 95%, line length 95%). Devanagari labels were close to illegible at this
+resolution. Both agents reported that many answers were guesses (Haiku said most; Sonnet about
+50 of 120), which is the finding: the models guess instead of declining when the image is
+unreadable.
+
+Caveats: these are chat-session runs, not API runs, on 20 maps, so the intervals are wide; the
+image pipeline of the chat session may itself downscale images; resolution loss is an artificial
+stress, not a natural one; Haiku and Sonnet are not the organisers' models.
 
 ## Running it on a real model
 
@@ -149,7 +169,7 @@ src/transitlens/
   evaluate.py   parallel, resumable runner
   scoring.py    answer normalisation, Wilson interval
   report.py     per-skill findings
-tests/          155 tests, 94% line coverage
+tests/          156 tests, 94% line coverage
 ```
 
 ## Reused components
