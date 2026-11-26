@@ -40,6 +40,8 @@ Pillow, lxml, requests, pytest, DejaVu Sans and Noto Sans Devanagari (SIL Open F
 Clean images: standard tier (180 tasks) oracle 180, random 21, Haiku 180, Sonnet 179 and 179;
 hard tier (120 tasks) Haiku 120, Sonnet 120. Both are ceilings for these models.
 
+Degradation curve for Sonnet (share of original size, 100/70/55/40/25%): 100, 98.3, 93.3, 64.2, 20.8% (Latin 100, 97.4, 97.4, 84.6, 24.4; Devanagari 100, 100, 85.7, 26.2, 14.3). The 25% run was all placeholder guesses by the agent's own report.
+
 Degraded images (hard tasks at 40% size, JPEG quality 25): Sonnet 77/120 (64%), Haiku 24/120
 (20%), random 11/120. Sonnet reached 84.6% on Latin names but 26.2% on Devanagari. Counting and
 line length survived (95%); legend matching and connecting-station fell to 45%. Both models

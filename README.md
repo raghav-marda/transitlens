@@ -112,7 +112,20 @@ images shrunk to 40% and JPEG-compressed). This is where the tasks separate:
 | Claude Haiku 5.5 | 24 (20.0%, CI 14 to 28%) | 17/78 (21.8%) | 7/42 (16.7%) |
 | random guess | 11 (9.2%) | 9/78 | 2/42 |
 
-What failed, for Sonnet: skills that need to read labels or follow a thin line collapsed
+Degradation curve for Sonnet on the same 120 tasks (scale is the share of the original size):
+
+![degradation curve](docs/degradation_curve.png)
+
+| Scale | 100% | 70% | 55% | 40% | 25% |
+|---|---|---|---|---|---|
+| All tasks | 100.0% | 98.3% | 93.3% | 64.2% | 20.8% |
+| Latin names | 100.0% | 97.4% | 97.4% | 84.6% | 24.4% |
+| Devanagari names | 100.0% | 100.0% | 85.7% | 26.2% | 14.3% |
+
+The drop is a cliff between 55% and 40%, and Devanagari fails first. At 25% the agent reported that
+every answer was a placeholder guess, so that point is the floor, not a measurement of skill.
+
+What failed at 40%, for Sonnet: skills that need to read labels or follow a thin line collapsed
 (legend matching 45%, connecting station 45%, lines at a station 60%), while pure structure
 survived (counting 95%, line length 95%). Devanagari labels were close to illegible at this
 resolution. Both agents reported that many answers were guesses (Haiku said most; Sonnet about
